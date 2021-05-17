@@ -611,7 +611,7 @@ section {
 
 .steps .content-item {
     background-color: #ffab07;
-	padding: 25px;
+	padding: 15px;
 	margin: -1px;
     border-radius: 20px;
     border: 10px solid #111;
@@ -660,7 +660,7 @@ section {
 }
 
 .services .section-title h2::after {
-  background: rgba(255, 255, 255, 0.2);
+  background: yellow;
 }
 
 .services .icon-box {
