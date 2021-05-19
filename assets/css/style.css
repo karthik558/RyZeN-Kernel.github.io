@@ -725,6 +725,7 @@ section {
   text-align: center;
   margin-bottom: 20px;
   background: #343a40;
+  border-radius: 3%;
   position: relative;
   overflow: hidden;
 }
@@ -758,7 +759,7 @@ section {
   font-style: italic;
   display: block;
   font-size: 13px;
-  color: orange;;
+  color: orangered;;
 }
 
 .team .member .social {
