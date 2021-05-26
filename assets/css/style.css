@@ -421,7 +421,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero .btn-get-started:hover {
-  background: black;
+  background: rgba(151, 0, 0, 0.712);
 }
 
 #hero .hero-img {
