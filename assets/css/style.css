@@ -613,15 +613,15 @@ section {
     background-color: #ffab07;
 	padding: 15px;
 	margin: -1px;
-    border-radius: 20px;
+    border-radius: 35px;
     border: 10px solid #111;
 }
 
 .steps .content-item span {
   display: block;
-  font-size: 24px;
+  font-size: 35px;
   font-weight: 400;
-  color: White;
+  color: rgb(255, 0, 0);
   margin: 2px;
 }
 
@@ -634,7 +634,7 @@ section {
 }
 
 .steps .content-item p {
-  color: dark palevioletred;
+  color: black;
   font-size: 15px;
   margin: 0;
   padding: 0;
@@ -669,7 +669,7 @@ section {
   overflow: hidden;
   background: #ffab07;
   transition: all 0.3s;
-  border-radius: 5px;
+  border-radius: 25px;
   text-align: center;
 }
 
@@ -684,7 +684,7 @@ section {
 .services .icon i {
   font-size: 32px;
   line-height: 1;
-  color: #ffffff;
+  color: rgb(245, 0, 0);
   background: #000000;
   padding: 20px;
   border-radius: 50px;
