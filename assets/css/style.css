@@ -625,6 +625,10 @@ section {
   margin: 2px;
 }
 
+.steps .content-item:hover {
+  transform: scale(1.08);
+}
+
 .steps .content-item h4 {
   font-size: 28px;
   font-weight: 800;
@@ -703,7 +707,7 @@ section {
 }
 
 .services .title a:hover {
-  color: whitesmoke;
+  color: rgb(255, 0, 0);
 }
 
 .services .description {
