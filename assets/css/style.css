@@ -31,7 +31,7 @@ h1, h2, h3, h4, h5, h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #fff;
+  background: rgb(247, 59, 12);
   width: 40px;
   height: 40px;
   border-radius: 4px;
@@ -40,17 +40,17 @@ h1, h2, h3, h4, h5, h6 {
 
 .back-to-top i {
   font-size: 28px;
-  color: black;
+  color: rgb(0, 0, 0);
   line-height: 0;
 }
 .back-to-top i:hover{
   font-size: 28px;
-  color: white;
+  color: rgb(0, 0, 0);
   line-height: 0;
 }
 
 .back-to-top:hover {
-  background: #000;
+  background: rgb(253, 135, 0);
 }
 
 .back-to-top.active {
