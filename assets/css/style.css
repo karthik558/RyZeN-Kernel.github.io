@@ -878,7 +878,7 @@ section {
 # Contact
 --------------------------------------------------------------*/
 .contact .info-box {
-  color: #ffffff;
+  color: #222222;
   text-align: center;
   padding: 20px 0 30px 0;
   background: orange;
@@ -966,7 +966,7 @@ section {
 }
 
 .contact .php-email-form button[type="submit"]:hover {
-  background: black;
+  background: rgb(41, 226, 41);
 }
 
 @-webkit-keyframes animate-loading {
