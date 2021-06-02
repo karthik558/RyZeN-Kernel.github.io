@@ -688,8 +688,8 @@ section {
 .services .icon i {
   font-size: 32px;
   line-height: 1;
-  color: rgb(245, 0, 0);
-  background: #000000;
+  color: rgb(255, 67, 10);
+  background: rgb(39, 39, 39);
   padding: 20px;
   border-radius: 50px;
   transition: all 0.3s;
