@@ -31,7 +31,7 @@ h1, h2, h3, h4, h5, h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: rgb(247, 59, 12);
+  background: rgb(0, 0, 0);
   width: 40px;
   height: 40px;
   border-radius: 4px;
@@ -40,7 +40,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .back-to-top i {
   font-size: 28px;
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   line-height: 0;
 }
 .back-to-top i:hover{
@@ -50,7 +50,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .back-to-top:hover {
-  background: rgb(253, 135, 0);
+  background: rgb(255, 255, 255);
 }
 
 .back-to-top.active {
@@ -1178,42 +1178,108 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Card-Download
+# Download-Section
 --------------------------------------------------------------*/
-section {
-  padding: 60px 0;
-  overflow: hidden;
-}
-
-.section-bg {
-  background-color: #111111;
-}
-
-.section-title {
-  text-align: center;
-  padding-bottom: 30px;
-}
-
-.section-title h2 {
-  font-size: 32px;
-  font-weight: bold;
-  margin-bottom: 20px;
-  padding-bottom: 20px;
+.containerr
+{
   position: relative;
-  color: whitesmoke;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
 }
-
-.section-title h2::after {
-  content: '';
+.containerr .cardd
+{
+  position: relative;
+  width: 300px;
+  height: 420px;
+  background: rgb(29, 29, 29);
+  margin: 20px;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 15px 25px rgb(0,0,0,0.2);
+  transition: 0.5s;
+}
+.containerr:hover .cardd
+{
+  filter: blur(20px);
+  transform: scale(0.9);
+  opacity: 0.5;
+}
+.containerr .cardd:hover
+{
+  filter: blur(0px);
+  transform: scale(1.1);
+  opacity: 1;
+}
+.containerr .cardd .circlee
+{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  clip-path: circle(180px at center 0);
+  text-align: center;
+}
+.containerr .cardd .circlee h2
+{
+  color: #fff;
+  font-size: 2.5em;
+  padding: 50px 0;
+  font-weight: bolder;
+}
+.containerr .cardd .circlee h3
+{
+  color: #fff;
+  font-size: 2em;
+  padding: 70px 0;
+  font-weight: bolder;
+}
+.containerr .cardd .contentt
+{
   position: absolute;
-  display: block;
-  width: 50px;
-  height: 3px;
-  background: yellow;
-  bottom: 0;
-  left: calc(50% - 25px);
+  bottom: 10px;
+  padding: 20px;
+  text-align: center;
 }
-
-.section-title p {
-  margin-bottom: 0;
+.containerr .cardd .contentt p
+{
+  color: rgb(230, 230, 230);
+  text-align: left;
+}
+.containerr .cardd .contentt a
+{
+  position: relative;
+  display: inline-block;
+  padding: 10px 20px;
+  background: #000;
+  color: #fff;
+  border-radius: 40px;
+  text-decoration: none;
+  margin-top: 20px;
+}
+.containerr .cardd:nth-child(1) .circlee,
+.containerr .cardd:nth-child(1) .contentt a
+{
+  background: -webkit-linear-gradient(45deg,red, orange)
+}
+.containerr .cardd:nth-child(2) .circlee,
+.containerr .cardd:nth-child(2) .contentt a
+{
+  background: -webkit-linear-gradient(45deg,red, orange)
+}
+.containerr .cardd:nth-child(3) .circlee,
+.containerr .cardd:nth-child(3) .contentt a
+{
+  background: -webkit-linear-gradient(45deg,red, orange)
+}
+.containerr .cardd:nth-child(4) .circlee,
+.containerr .cardd:nth-child(4) .contentt a
+{
+  background: -webkit-linear-gradient(45deg,red, orange)
+}
+.containerr .cardd .contentt a:hover
+{
+  color: rgb(0, 0, 0);
 }
