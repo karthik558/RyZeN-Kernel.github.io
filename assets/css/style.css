@@ -583,6 +583,9 @@ section {
   padding: 0;
 }
 
+.features .content img {
+  border-radius: 25px;
+}
 .features .content ul li {
   padding-bottom: 10px;
 }
