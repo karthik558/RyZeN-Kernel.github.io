@@ -1305,11 +1305,11 @@ section {
 }
 .containerrs .boxxx:nth-child(1)
 {
-  background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+  background: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
 }
 .containerrs .boxxx:nth-child(2)
 {
-  background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+  background: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
 }
 .containerrs .boxxx h2
 {
@@ -1352,7 +1352,7 @@ section {
   font-weight: 700;
   line-height: 56px;
   width: 60%;
-  background: linear-gradient(90deg, rgba(255,42,197,1) 0%, rgba(147,0,85,1) 56%, rgba(203,37,55,1) 80%, rgba(188,69,252,1) 100%);
+  background: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -1361,7 +1361,7 @@ section {
   color: #466393;
   margin: 15px 0 0 0;
   font-size: 24px;
-  background: linear-gradient(90deg, rgba(255,42,197,1) 0%, rgba(147,0,85,1) 56%, rgba(203,37,55,1) 80%, rgba(188,69,252,1) 100%);
+  background: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -1413,15 +1413,15 @@ section {
 # Footer Support Page
 --------------------------------------------------------------*/
 #footerr {
-  color: rgb(248, 217, 222);
+  color: #000;
   font-size: 15px;
-  background: linear-gradient(90deg, rgba(136,0,99,1) 0%, rgba(233,34,149,1) 56%, rgba(203,37,99,1) 80%, rgba(252,69,69,1) 100%);
+  background: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
 }
 
 #footerr .footer-top {
   padding: 60px 0 30px 0;
-  background: linear-gradient(90deg, rgba(136,0,99,1) 0%, rgba(233,34,149,1) 56%, rgba(203,37,99,1) 80%, rgba(252,69,69,1) 100%);
+  background: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
 }
 
 #footerr .footer-top .footer-contact {
@@ -1543,7 +1543,8 @@ section {
 #footerr .credits {
   padding-top: 10px;
   font-size: 14px;
-  color: rgb(255, 195, 195);
+  font-weight: 500;
+  color: #fff;
 }
 
 #footerr .social-links a {
@@ -1571,7 +1572,7 @@ section {
 --------------------------------------------------------------*/
 #headerr {
   background: #111111;
-  border-bottom: 1px solid palevioletred;
+  border-bottom: 2px solid #B721FF;
   transition: all 0.5s;
   z-index: 997;
   padding: 15px 0;
@@ -1586,7 +1587,7 @@ section {
   font-family: "Poppins", sans-serif;
 }
 #headerr .logo a {
-  color: palevioletred;
+  color: #B721FF;
   font-weight: 600;
 }
 #headerr .logo img {
