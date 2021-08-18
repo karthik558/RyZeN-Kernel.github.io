@@ -61,83 +61,48 @@ h1, h2, h3, h4, h5, h6 {
 /*--------------------------------------------------------------
 # Preloader
 --------------------------------------------------------------*/
-.loaderx{
-  background: #111;
-  width: 100%;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+#preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 9999;
+  overflow: hidden;
+  background: rgb(29, 29, 29);
 }
 
-.loaderx div{
-  background: #fff;
-  width: 26px;
-  height: 47px;
-  margin-left: 10px;
-  animation: loaderx 1s infinite;
+#preloader:before {
+  content: "";
+  position: fixed;
+  top: calc(50% - 30px);
+  left: calc(50% - 30px);
+  border: 6px solid #ff0000;
+  border-top-color: #9b9b9b;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  -webkit-animation: animate-preloader 1s linear infinite;
+  animation: animate-preloader 1s linear infinite;
 }
 
-@keyframes loaderx{
-  50%{
-    height: 84px;
+@-webkit-keyframes animate-preloader {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
   }
 }
 
-.loaderx div:nth-child(1){
-  background: #ff6600;
-  animation-delay: -0.40s;
-}
-
-.loaderx div:nth-child(2){
- background: #972300;
- animation-delay: -0.20s;
-}
-
-.loaderx div:nth-child(3){
- background: #470000;
- animation-delay: 0s;
-} 
-/*--------------------------------------------------------------
-# Preloader-Support-Group
---------------------------------------------------------------*/
-.loaderxx{
-  background: #111;
-  width: 100%;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.loaderxx div{
-  background: #fff;
-  width: 26px;
-  height: 47px;
-  margin-left: 10px;
-  animation: loaderx 1s infinite;
-}
-
-@keyframes loaderxx{
-  50%{
-    height: 84px;
+@keyframes animate-preloader {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
   }
 }
-
-.loaderxx div:nth-child(1){
-  background: #6200ff;
-  animation-delay: -0.40s;
-}
-
-.loaderxx div:nth-child(2){
- background: #0a0097;
- animation-delay: -0.20s;
-}
-
-.loaderxx div:nth-child(3){
- background: #130047;
- animation-delay: 0s;
-} 
 
 /*--------------------------------------------------------------
 # Disable aos animation delay on mobile devices
@@ -351,7 +316,7 @@ h1, h2, h3, h4, h5, h6 {
   left: 15px;
   padding: 10px 0;
   border-radius: 10px;
-  background-color: #111111;
+  background-color: #1a1a1a;
   overflow-y: auto;
   transition: 0.3s;
 }
@@ -433,7 +398,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero h2 {
-  color: orangered;
+  color: #466393;
   margin: 15px 0 0 0;
   font-size: 24px;
   background: -webkit-linear-gradient(45deg,orange,orangered );
@@ -448,15 +413,15 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: 1px;
   display: block;
   padding: 8px 32px 10px 32px;
-  margin-top: 28px;
-  border-radius: 16px;
+  margin-top: 25px;
+  border-radius: 5px;
   transition: 0.5s;
   color: #fff;
-  background: -webkit-linear-gradient(45deg,orange,orangered );
+  background: red;
 }
 
 #hero .btn-get-started:hover {
-  background: -webkit-linear-gradient(45deg,rgb(124, 81, 0),rgb(121, 32, 0) );
+  background: rgba(151, 0, 0, 0.712);
 }
 
 #hero .hero-img {
@@ -760,7 +725,7 @@ section {
 .team {
   background: #111111;
   padding: 60px 0;
-  border-top: 2px solid orangered;
+    border-top: 2px solid orangered;
 }
 
 .team .member {
@@ -1377,7 +1342,7 @@ section {
   text-align: center;
 }
 
-#features {
+#features{
 }
 
 #heroo .container {
