@@ -1286,6 +1286,7 @@ section {
 {
   color: rgb(0, 0, 0);
 }
+
 /*--------------------------------------------------------------
 # Support-Section
 --------------------------------------------------------------*/
@@ -1308,11 +1309,11 @@ section {
 }
 .containerrs .boxxx:nth-child(1)
 {
-  background: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
+  background: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
 }
 .containerrs .boxxx:nth-child(2)
 {
-  background: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
+  background: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
 }
 .containerrs .boxxx h2
 {
@@ -1355,7 +1356,7 @@ section {
   font-weight: 700;
   line-height: 56px;
   width: 60%;
-  background: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
+  background: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -1364,7 +1365,7 @@ section {
   color: #466393;
   margin: 15px 0 0 0;
   font-size: 24px;
-  background: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
+  background: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -1418,13 +1419,13 @@ section {
 #footerr {
   color: #000;
   font-size: 15px;
-  background: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
+  background: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
 }
 
 #footerr .footer-top {
   padding: 60px 0 30px 0;
-  background: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
+  background: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
 }
 
 #footerr .footer-top .footer-contact {
@@ -1575,7 +1576,7 @@ section {
 --------------------------------------------------------------*/
 #headerr {
   background: #111111;
-  border-bottom: 2px solid #B721FF;
+  border-bottom: 2px solid #051937;
   transition: all 0.5s;
   z-index: 997;
   padding: 15px 0;
@@ -1590,7 +1591,7 @@ section {
   font-family: "Poppins", sans-serif;
 }
 #headerr .logo a {
-  color: #B721FF;
+  color: #A8EB12;
   font-weight: 600;
 }
 #headerr .logo img {
@@ -1862,4 +1863,371 @@ section {
 
 #headerx1 .logo img {
   max-height: 40px;
+}
+
+/* VIOLET DOWNLOAD PAGE */
+/*--------------------------------------------------------------
+# Download-Section (VIOLET)
+--------------------------------------------------------------*/
+.containerrx
+{
+  position: relative;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.containerrx .carddx
+{
+  position: relative;
+  width: 300px;
+  height: 420px;
+  background: rgb(29, 29, 29);
+  margin: 20px;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 15px 25px rgb(0,0,0,0.2);
+  transition: 0.5s;
+}
+.containerrx:hover .carddx
+{
+  filter: blur(20px);
+  transform: scale(0.9);
+  opacity: 0.5;
+}
+.containerrx .carddx:hover
+{
+  filter: blur(0px);
+  transform: scale(1.1);
+  opacity: 1;
+}
+.containerrx .carddx .circleex
+{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  clip-path: circle(180px at center 0);
+  text-align: center;
+}
+.containerrx .carddx .circleex h2
+{
+  color: #fff;
+  font-size: 2.5em;
+  padding: 50px 0;
+  font-weight: bolder;
+}
+.containerrx .carddx .circleex h3
+{
+  color: #fff;
+  font-size: 2em;
+  padding: 70px 0;
+  font-weight: bolder;
+}
+.containerrx .carddx .contenttx
+{
+  position: absolute;
+  bottom: 10px;
+  padding: 20px;
+  text-align: center;
+}
+.containerrx .carddx .contenttx p
+{
+  color: rgb(230, 230, 230);
+  text-align: left;
+}
+.containerrx .carddx .contenttx a
+{
+  position: relative;
+  display: inline-block;
+  padding: 10px 20px;
+  background: #000;
+  color: #fff;
+  border-radius: 40px;
+  text-decoration: none;
+  margin-top: 20px;
+}
+.containerrx .carddx:nth-child(1) .circleex,
+.containerrx .carddx:nth-child(1) .contenttx a
+{
+  background: linear-gradient(to right top, #6bcdd1, #6dd5c8, #7adcbb, #90e1ab, #abe59a, #bcdd82, #cfd36e, #e2c75e, #ebad4a, #f29141, #f67244, #f54f4f);
+}
+.containerrx .carddx:nth-child(2) .circleex,
+.containerrx .carddx:nth-child(2) .contenttx a
+{
+  background: linear-gradient(to right top, #6bcdd1, #6dd5c8, #7adcbb, #90e1ab, #abe59a, #bcdd82, #cfd36e, #e2c75e, #ebad4a, #f29141, #f67244, #f54f4f);
+}
+.containerrx .carddx:nth-child(3) .circleex,
+.containerrx .carddx:nth-child(3) .contenttx a
+{
+  background: linear-gradient(to right top, #6bcdd1, #6dd5c8, #7adcbb, #90e1ab, #abe59a, #bcdd82, #cfd36e, #e2c75e, #ebad4a, #f29141, #f67244, #f54f4f);
+}
+.containerrx .carddx:nth-child(4) .circleex,
+.containerrx .carddx:nth-child(4) .contenttx a
+{
+  background: linear-gradient(to right top, #6bcdd1, #6dd5c8, #7adcbb, #90e1ab, #abe59a, #bcdd82, #cfd36e, #e2c75e, #ebad4a, #f29141, #f67244, #f54f4f);
+}
+.containerrx .carddx .contenttx a:hover
+{
+  color: rgb(0, 0, 0);
+}
+
+/*--------------------------------------------------------------
+# Header Violet Page
+--------------------------------------------------------------*/
+#headerx2 {
+  background: #111111;
+  border-bottom: 2px solid #F54F4F;
+  transition: all 0.5s;
+  z-index: 997;
+  padding: 15px 0;
+}
+
+#headerx2 .logo {
+  font-size: 18px;
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  font-weight: 600;
+  letter-spacing: 3px;
+  font-family: "Poppins", sans-serif;
+}
+
+#headerx2 .logo a {
+  color: whitesmoke
+}
+
+#headerx2 .logo img {
+  max-height: 40px;
+}
+
+/*--------------------------------------------------------------
+# Footer New Download/Device added page
+--------------------------------------------------------------*/
+#footerrrx {
+  color: black;
+  font-size: 15px;
+  background: linear-gradient(to right top, #6bcdd1, #6dd5c8, #7adcbb, #90e1ab, #abe59a, #bcdd82, #cfd36e, #e2c75e, #ebad4a, #f29141, #f67244, #f54f4f);
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+}
+
+#footerrrx .footer-top {
+  padding: 60px 0 30px 0;
+  background: red;;
+}
+
+#footerrrx .footer-top .footer-contact {
+  margin-bottom: 30px;
+}
+
+#footerrrx .footer-top .footer-contact h4 {
+  font-size: 22px;
+  margin: 0 0 30px 0;
+  padding: 2px 0 2px 0;
+  line-height: 1;
+  font-weight: 700;
+  color: #2d405f;
+}
+
+#footerrrx .footer-top .footer-contact p {
+  font-size: 14px;
+  line-height: 24px;
+  margin-bottom: 0;
+  font-family: "Krub", sans-serif;
+  color: #4e6fa4;
+}
+
+#footerrrx .footer-top h4 {
+  font-size: 16px;
+  font-weight: bold;
+  color: #2d405f;
+  position: relative;
+  padding-bottom: 12px;
+}
+
+#footerrrx .footer-top .footer-links {
+  margin-bottom: 30px;
+}
+
+#footerrrx .footer-top .footer-links ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#footerrrx .footer-top .footer-links ul i {
+  padding-right: 2px;
+  color: #6c7afa;
+  font-size: 18px;
+  line-height: 1;
+}
+
+#footerrrx .footer-top .footer-links ul li {
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+}
+
+#footerrrx .footer-top .footer-links ul li:first-child {
+  padding-top: 0;
+}
+
+#footerrrx .footer-top .footer-links ul a {
+  color: #777777;
+  transition: 0.3s;
+  display: inline-block;
+  line-height: 1;
+}
+
+#footerrrx .footer-top .footer-links ul a:hover {
+  text-decoration: none;
+  color: #3b4ef8;
+}
+
+#footerrrx .footer-newsletter {
+  font-size: 15px;
+}
+
+#footerrrx .footer-newsletter h4 {
+  font-size: 16px;
+  font-weight: bold;
+  color: #2d405f;
+  position: relative;
+  padding-bottom: 12px;
+}
+
+#footerrrx .footer-newsletter form {
+  margin-top: 30px;
+  background: red;;
+  padding: 6px 10px;
+  position: relative;
+  border-radius: 5px;
+  text-align: left;
+  border: 1px solid #9da7fc;
+}
+
+#footerrrx .footer-newsletter form input[type="email"] {
+  border: 0;
+  padding: 4px 8px;
+  width: calc(100% - 100px);
+}
+
+#footerrrx .footer-newsletter form input[type="submit"] {
+  position: absolute;
+  top: -1px;
+  right: -2px;
+  bottom: -1px;
+  border: 0;
+  background: none;
+  font-size: 16px;
+  padding: 0 20px;
+  background: #3b4ef8;
+  color: red;;
+  transition: 0.3s;
+  border-radius: 0 5px 5px 0;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+}
+
+#footerrrx .footer-newsletter form input[type="submit"]:hover {
+  background: yellow;
+}
+
+#footerrrx .credits {
+  padding-top: 10px;
+  font-size: 14px;
+  color: black;
+}
+
+#footerrrx .social-links a {
+  font-size: 18px;
+  display: inline-block;
+  background: #fff;
+  color: #000000;
+  line-height: 1;
+  padding: 8px 0;
+  margin-right: 4px;
+  border-radius: 5px;
+  text-align: center;
+  width: 36px;
+  height: 36px;
+  transition: 0.3s;
+}
+
+#footerrrx .social-links a:hover {
+  background: black;
+  color: white;;
+  text-decoration: none;
+}
+
+/*--------------------------------------------------------------
+# Hero Section [Download-New]
+--------------------------------------------------------------*/
+#herooxx {
+  width: 100%;
+  height: 100vh;
+  background: #111111;
+  text-align: center;
+}
+
+#features{
+}
+
+#herooxx .container {
+  padding-top: 70px;
+}
+
+#herooxx h1 {
+  margin: 0;
+  font-size: 80px;
+  font-weight: 700;
+  line-height: 56px;
+  width: 60%;
+  background: linear-gradient(to right top, #6bcdd1, #6dd5c8, #7adcbb, #90e1ab, #abe59a, #bcdd82, #cfd36e, #e2c75e, #ebad4a, #f29141, #f67244, #f54f4f);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#herooxx .btn-get-started {
+  font-family: "Krub", sans-serif;
+  font-weight: 1200;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: block;
+  padding: 8px 32px 10px 32px;
+  margin-top: 25px;
+  border-radius: 5px;
+  transition: 0.5s;
+  color: #fff;
+  background: red;
+}
+
+#herooxx .btn-get-started:hover {
+  background: rgba(151, 0, 0, 0.712);
+}
+
+#herooxx .hero-img {
+  max-width: 60%;
+  margin-top: 40px;
+}
+
+@media (max-width: 992px) {
+  #herooxx h1 {
+    font-size: 36px;
+    line-height: 42px;
+    width: 100%;
+  }
+  #herooxx h2 {
+    font-size: 20px;
+    line-height: 24px;
+  }
+  #herooxx .hero-img {
+    max-width: 90%;
+  }
+}
+
+@media (max-height: 768px) {
+  #herooxx {
+    height: auto;
+  }
 }
