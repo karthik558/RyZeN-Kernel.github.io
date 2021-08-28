@@ -316,7 +316,7 @@ h1, h2, h3, h4, h5, h6 {
   left: 15px;
   padding: 10px 0;
   border-radius: 10px;
-  background-color: #1a1a1a;
+  background-color: #111111;
   overflow-y: auto;
   transition: 0.3s;
 }
@@ -398,7 +398,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero h2 {
-  color: #466393;
+  color: orangered;
   margin: 15px 0 0 0;
   font-size: 24px;
   background: -webkit-linear-gradient(45deg,orange,orangered );
@@ -413,15 +413,15 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: 1px;
   display: block;
   padding: 8px 32px 10px 32px;
-  margin-top: 25px;
-  border-radius: 5px;
+  margin-top: 28px;
+  border-radius: 16px;
   transition: 0.5s;
   color: #fff;
-  background: red;
+  background: -webkit-linear-gradient(45deg,orange,orangered );
 }
 
 #hero .btn-get-started:hover {
-  background: rgba(151, 0, 0, 0.712);
+  background: -webkit-linear-gradient(45deg,rgb(124, 81, 0),rgb(121, 32, 0) );
 }
 
 #hero .hero-img {
