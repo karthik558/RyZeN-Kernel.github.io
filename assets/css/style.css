@@ -823,7 +823,7 @@ section {
 .faq .faq-list {
   padding: 20px;
   list-style: none;
-        background-color: #db3e02;
+    background: linear-gradient(180deg, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
     border-radius: 20px;
 
 }
@@ -868,7 +868,7 @@ section {
 }
 
 .faq .faq-list .collapsed:hover {
-  color: white;
+  color: rgb(211, 162, 0);
 }
 
 .faq .faq-list .collapsed .icon-show {
@@ -1343,9 +1343,6 @@ section {
   text-align: center;
 }
 
-#features{
-}
-
 #heroo .container {
   padding-top: 70px;
 }
@@ -1765,9 +1762,6 @@ section {
   text-align: center;
 }
 
-#features{
-}
-
 #heroox .container {
   padding-top: 70px;
 }
@@ -2168,9 +2162,6 @@ section {
   height: 100vh;
   background: #111111;
   text-align: center;
-}
-
-#features{
 }
 
 #herooxx .container {
