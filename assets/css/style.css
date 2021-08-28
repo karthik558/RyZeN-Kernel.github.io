@@ -118,7 +118,7 @@ h1, h2, h3, h4, h5, h6 {
 --------------------------------------------------------------*/
 #header {
   background: #111111;
-  border-bottom: 3px solid orangered;
+  border-bottom: 2px solid orangered;
   transition: all 0.5s;
   z-index: 997;
   padding: 15px 0;
@@ -392,7 +392,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
   line-height: 56px;
   width: 60%;
-  background: -webkit-linear-gradient(45deg,red, orange);
+  background: linear-gradient(90deg, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -1028,7 +1028,7 @@ section {
 #footer {
   color: black;
   font-size: 15px;
-  background: #f64300;
+  background: linear-gradient(90deg, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
 }
 
@@ -1265,22 +1265,22 @@ section {
 .containerr .cardd:nth-child(1) .circlee,
 .containerr .cardd:nth-child(1) .contentt a
 {
-  background: -webkit-linear-gradient(45deg,red, orange)
+  background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
 }
 .containerr .cardd:nth-child(2) .circlee,
 .containerr .cardd:nth-child(2) .contentt a
 {
-  background: -webkit-linear-gradient(45deg,red, orange)
+  background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
 }
 .containerr .cardd:nth-child(3) .circlee,
 .containerr .cardd:nth-child(3) .contentt a
 {
-  background: -webkit-linear-gradient(45deg,red, orange)
+  background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
 }
 .containerr .cardd:nth-child(4) .circlee,
 .containerr .cardd:nth-child(4) .contentt a
 {
-  background: -webkit-linear-gradient(45deg,red, orange)
+  background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
 }
 .containerr .cardd .contentt a:hover
 {
@@ -1594,5 +1594,272 @@ section {
   font-weight: 600;
 }
 #headerr .logo img {
+  max-height: 40px;
+}
+/*--------------------------------------------------------------
+# Footer New Download/Device added page
+--------------------------------------------------------------*/
+#footerrr {
+  color: black;
+  font-size: 15px;
+  background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+}
+
+#footerrr .footer-top {
+  padding: 60px 0 30px 0;
+  background: red;;
+}
+
+#footerrr .footer-top .footer-contact {
+  margin-bottom: 30px;
+}
+
+#footerrr .footer-top .footer-contact h4 {
+  font-size: 22px;
+  margin: 0 0 30px 0;
+  padding: 2px 0 2px 0;
+  line-height: 1;
+  font-weight: 700;
+  color: #2d405f;
+}
+
+#footerrr .footer-top .footer-contact p {
+  font-size: 14px;
+  line-height: 24px;
+  margin-bottom: 0;
+  font-family: "Krub", sans-serif;
+  color: #4e6fa4;
+}
+
+#footerrr .footer-top h4 {
+  font-size: 16px;
+  font-weight: bold;
+  color: #2d405f;
+  position: relative;
+  padding-bottom: 12px;
+}
+
+#footerrr .footer-top .footer-links {
+  margin-bottom: 30px;
+}
+
+#footerrr .footer-top .footer-links ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#footerrr .footer-top .footer-links ul i {
+  padding-right: 2px;
+  color: #6c7afa;
+  font-size: 18px;
+  line-height: 1;
+}
+
+#footerrr .footer-top .footer-links ul li {
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+}
+
+#footerrr .footer-top .footer-links ul li:first-child {
+  padding-top: 0;
+}
+
+#footerrr .footer-top .footer-links ul a {
+  color: #777777;
+  transition: 0.3s;
+  display: inline-block;
+  line-height: 1;
+}
+
+#footerrr .footer-top .footer-links ul a:hover {
+  text-decoration: none;
+  color: #3b4ef8;
+}
+
+#footerrr .footer-newsletter {
+  font-size: 15px;
+}
+
+#footerrr .footer-newsletter h4 {
+  font-size: 16px;
+  font-weight: bold;
+  color: #2d405f;
+  position: relative;
+  padding-bottom: 12px;
+}
+
+#footerrr .footer-newsletter form {
+  margin-top: 30px;
+  background: red;;
+  padding: 6px 10px;
+  position: relative;
+  border-radius: 5px;
+  text-align: left;
+  border: 1px solid #9da7fc;
+}
+
+#footerrr .footer-newsletter form input[type="email"] {
+  border: 0;
+  padding: 4px 8px;
+  width: calc(100% - 100px);
+}
+
+#footerrr .footer-newsletter form input[type="submit"] {
+  position: absolute;
+  top: -1px;
+  right: -2px;
+  bottom: -1px;
+  border: 0;
+  background: none;
+  font-size: 16px;
+  padding: 0 20px;
+  background: #3b4ef8;
+  color: red;;
+  transition: 0.3s;
+  border-radius: 0 5px 5px 0;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+}
+
+#footerrr .footer-newsletter form input[type="submit"]:hover {
+  background: yellow;
+}
+
+#footerrr .credits {
+  padding-top: 10px;
+  font-size: 14px;
+  color: black;
+}
+
+#footerrr .social-links a {
+  font-size: 18px;
+  display: inline-block;
+  background: #fff;
+  color: #000000;
+  line-height: 1;
+  padding: 8px 0;
+  margin-right: 4px;
+  border-radius: 5px;
+  text-align: center;
+  width: 36px;
+  height: 36px;
+  transition: 0.3s;
+}
+
+#footerrr .social-links a:hover {
+  background: black;
+  color: white;;
+  text-decoration: none;
+}
+
+/*--------------------------------------------------------------
+# Hero Section [Download-New]
+--------------------------------------------------------------*/
+#heroox {
+  width: 100%;
+  height: 100vh;
+  background: #111111;
+  text-align: center;
+}
+
+#features{
+}
+
+#heroox .container {
+  padding-top: 70px;
+}
+
+#heroox h1 {
+  margin: 0;
+  font-size: 80px;
+  font-weight: 700;
+  line-height: 56px;
+  width: 60%;
+  background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#heroox h2 {
+  color: #466393;
+  margin: 15px 0 0 0;
+  font-size: 24px;
+  background: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#heroox .btn-get-started {
+  font-family: "Krub", sans-serif;
+  font-weight: 1200;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: block;
+  padding: 8px 32px 10px 32px;
+  margin-top: 25px;
+  border-radius: 5px;
+  transition: 0.5s;
+  color: #fff;
+  background: red;
+}
+
+#heroox .btn-get-started:hover {
+  background: rgba(151, 0, 0, 0.712);
+}
+
+#heroox .hero-img {
+  max-width: 60%;
+  margin-top: 40px;
+}
+
+@media (max-width: 992px) {
+  #heroox h1 {
+    font-size: 36px;
+    line-height: 42px;
+    width: 100%;
+  }
+  #heroox h2 {
+    font-size: 20px;
+    line-height: 24px;
+  }
+  #heroox .hero-img {
+    max-width: 90%;
+  }
+}
+
+@media (max-height: 768px) {
+  #heroox {
+    height: auto;
+  }
+}
+
+/*--------------------------------------------------------------
+# Header Download Page New
+--------------------------------------------------------------*/
+#headerx1 {
+  background: #111111;
+  border-bottom: 2px solid rgb(238,174,202);
+  transition: all 0.5s;
+  z-index: 997;
+  padding: 15px 0;
+}
+
+#headerx1 .logo {
+  font-size: 18px;
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  font-weight: 600;
+  letter-spacing: 3px;
+  font-family: "Poppins", sans-serif;
+}
+
+#headerx1 .logo a {
+  color: whitesmoke
+}
+
+#headerx1 .logo img {
   max-height: 40px;
 }
