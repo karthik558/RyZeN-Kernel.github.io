@@ -9,19 +9,20 @@
 
 <br>
 
->[!QUOTE]
+>[QUOTE]
 <br>
 
 >>**There are lots of Linux users who don't care how the kernel works, but only want to use it. That is a tribute to how good Linux is. ❤️**
 
 <br>
 
->[!DOWNLOAD]
+>>[DOWNLOAD]
 
-<button onclick="window.location.href='https://ryzen-kernel.me/download.html';">CLICK HERE</button>
+>[HERE](https://ryzen-kernel.me/download.html)
 
 <br>
 
->[!SUPPORT-MY-WORKS]
+>[SUPPORT-MY-WORKS]
 
-<button onclick="window.location.href='https://ryzen-kernel.me/support.html';">CLICK HERE</button>
+>[HERE](https://ryzen-kernel.me/support.html)
+
