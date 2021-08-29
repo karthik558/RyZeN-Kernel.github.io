@@ -605,7 +605,7 @@ section {
 --------------------------------------------------------------*/
 .steps {
   padding-top: 20px;
-    border-bottom: 2px solid orangered;
+  padding-bottom: 50px;
 }
 
 .steps .row {
@@ -1027,6 +1027,8 @@ section {
 --------------------------------------------------------------*/
 #footer {
   color: black;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
   font-size: 15px;
   background: linear-gradient(90deg, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
@@ -1034,7 +1036,7 @@ section {
 
 #footer .footer-top {
   padding: 60px 0 30px 0;
-  background: red;;
+  background: red;
 }
 
 #footer .footer-top .footer-contact {
@@ -1257,7 +1259,7 @@ section {
   display: inline-block;
   padding: 10px 20px;
   background: #000;
-  color: #fff;
+  color: #000;
   border-radius: 40px;
   text-decoration: none;
   margin-top: 20px;
@@ -1284,7 +1286,7 @@ section {
 }
 .containerr .cardd .contentt a:hover
 {
-  color: rgb(0, 0, 0);
+  color: #fff;
 }
 
 /*--------------------------------------------------------------
@@ -1351,8 +1353,8 @@ section {
   margin: 0;
   font-size: 80px;
   font-weight: 700;
-  line-height: 56px;
-  width: 60%;
+  line-height: 66px;
+  width: 70%;
   background: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -1414,7 +1416,9 @@ section {
 # Footer Support Page
 --------------------------------------------------------------*/
 #footerr {
-  color: #000;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  color: #fff;
   font-size: 15px;
   background: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
@@ -1598,6 +1602,8 @@ section {
 # Footer New Download/Device added page
 --------------------------------------------------------------*/
 #footerrr {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
   color: black;
   font-size: 15px;
   background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
@@ -1770,8 +1776,8 @@ section {
   margin: 0;
   font-size: 80px;
   font-weight: 700;
-  line-height: 56px;
-  width: 60%;
+  line-height: 66px;
+  width: 70%;
   background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -2000,6 +2006,8 @@ section {
 # Footer New Download/Device added page
 --------------------------------------------------------------*/
 #footerrrx {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
   color: black;
   font-size: 15px;
   background: linear-gradient(to right top, #6bcdd1, #6dd5c8, #7adcbb, #90e1ab, #abe59a, #bcdd82, #cfd36e, #e2c75e, #ebad4a, #f29141, #f67244, #f54f4f);
@@ -2158,8 +2166,6 @@ section {
 # Hero Section [Download-New]
 --------------------------------------------------------------*/
 #herooxx {
-  width: 100%;
-  height: 100vh;
   background: #111111;
   text-align: center;
 }
@@ -2172,8 +2178,8 @@ section {
   margin: 0;
   font-size: 80px;
   font-weight: 700;
-  line-height: 56px;
-  width: 60%;
+  line-height: 76px;
+  width: 80%;
   background: linear-gradient(to right top, #6bcdd1, #6dd5c8, #7adcbb, #90e1ab, #abe59a, #bcdd82, #cfd36e, #e2c75e, #ebad4a, #f29141, #f67244, #f54f4f);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
