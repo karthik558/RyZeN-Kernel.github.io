@@ -1,5 +1,4 @@
-## RYZEN KERNEL
-
+## <b> <i> RYZEN KERNEL </i>
 
 ![Screenshot](https://github.com/karthik558/RyZeN-Kernel-Website/blob/master/assets/img/header/banner.jpg)
 
@@ -12,11 +11,11 @@
 >[QUOTE]
 <br>
 
->>**There are lots of Linux users who don't care how the kernel works, but only want to use it. That is a tribute to how good Linux is. ❤️**
+>**There are lots of Linux users who don't care how the kernel works, but only want to use it. That is a tribute to how good Linux is. ❤️**
 
 <br>
 
->>[DOWNLOAD]
+>[DOWNLOAD]
 
 >[HERE](https://ryzen-kernel.me/download.html)
 
