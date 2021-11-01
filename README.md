@@ -1,4 +1,4 @@
-## <b> <i> RYZEN KERNEL </i>
+# <b> RYZEN KERNEL
 
 ![Screenshot](https://github.com/karthik558/RyZeN-Kernel-Website/blob/master/assets/img/header/banner.jpg)
 
