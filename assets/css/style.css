@@ -82,13 +82,22 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 50%;
   width: 60px;
   height: 60px;
-  -webkit-animation: animate-preloader 1s linear infinite;
-  animation: animate-preloader 1s linear infinite;
+  -webkit-animation: animate-preloader 2s linear infinite;
+  animation: animate-preloader 2s linear infinite;
 }
 
 @-webkit-keyframes animate-preloader {
   0% {
     transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(90deg);
+  }
+  50% {
+    transform: rotate(180deg);
+  }
+  75% {
+    transform: rotate(270deg);
   }
   100% {
     transform: rotate(360deg);
@@ -98,6 +107,15 @@ h1, h2, h3, h4, h5, h6 {
 @keyframes animate-preloader {
   0% {
     transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(90deg);
+  }
+  50% {
+    transform: rotate(180deg);
+  }
+  75% {
+    transform: rotate(270deg);
   }
   100% {
     transform: rotate(360deg);
