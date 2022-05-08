@@ -82,8 +82,8 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 50%;
   width: 60px;
   height: 60px;
-  -webkit-animation: animate-preloader 2s linear infinite;
-  animation: animate-preloader 2s linear infinite;
+  -webkit-animation: animate-preloader .8s linear infinite;
+  animation: animate-preloader .8s linear infinite;
 }
 
 @-webkit-keyframes animate-preloader {
