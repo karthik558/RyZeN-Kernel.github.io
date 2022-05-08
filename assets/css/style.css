@@ -647,7 +647,9 @@ section {
 }
 
 .steps .content-item:hover {
+  transition-duration: 0.2s;
   transform: scale(1.08);
+  transition-delay: unset;
 }
 
 .steps .content-item h4 {
