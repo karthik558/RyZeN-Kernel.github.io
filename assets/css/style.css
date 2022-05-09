@@ -5,6 +5,7 @@ body {
   background-color:  #080808;
   font-family: "Open Sans", sans-serif;
   color: white;
+  scroll-behavior: smooth;
 }
 
 a {
@@ -631,11 +632,11 @@ section {
 }
 
 .steps .content-item {
-    background-color: #ffab07;
+  background-color: #ffab07;
 	padding: 15px;
 	margin: -1px;
-    border-radius: 35px;
-    border: 10px solid #111;
+  border-radius: 35px;
+  border: 10px solid #080808;
 }
 
 .steps .content-item span {
@@ -647,9 +648,12 @@ section {
 }
 
 .steps .content-item:hover {
-  transition-duration: 0.2s;
-  transform: scale(1.08);
-  transition-delay: unset;
+  transition-duration: 0.1s;
+  transform: scale(1.06);
+}
+
+.steps .content-item:hover::after{
+  animation: delay 0s;
 }
 
 .steps .content-item h4 {
