@@ -50,7 +50,7 @@
 | **Custom ROMs/Ports** | ⚠️ **Limited Support** |
 
 ### 🔧 **Supported Devices**
-Check our [**Download Page**](https://karthiklal.in/download.html) for the complete list of supported devices.
+Check our [**Download Page**](https://ryzen-kernel.vercel.app/download.html) for the complete list of supported devices.
 
 ## 📥 **Installation Guide**
 
@@ -85,9 +85,9 @@ Check our [**Download Page**](https://karthiklal.in/download.html) for the compl
 
 ## 🤝 **Community & Support**
 
-- 🌐 **Website**: [karthiklal.in](https://karthiklal.in)
+- 🌐 **Website**: [ryzen-kernel.vercel.app](https://ryzen-kernel.vercel.app)
 - 📧 **Contact**: [dev@karthiklal.in](mailto:dev@karthiklal.in)
-- 💬 **Support**: [Support Page](https://karthiklal.in/support.html)
+- 💬 **Support**: [Support Page](https://ryzen-kernel.vercel.app/support.html)
 - 📱 **Telegram**: [@karthik558](https://t.me/karthik558)
 
 ## 👨‍💻 **Developer**
@@ -101,10 +101,10 @@ Check our [**Download Page**](https://karthiklal.in/download.html) for the compl
 
 | Action | Link |
 |--------|------|
-| 🏠 **Home** | [RyZeN Kernel Website](https://karthiklal.in) |
-| 📥 **Download** | [Get RyZeN Kernel](https://karthiklal.in/download.html) |
-| 💬 **Support** | [Get Help](https://karthiklal.in/support.html) |
-| 📚 **Documentation** | [User Guide](https://karthiklal.in/index.html#features) |
+| 🏠 **Home** | [RyZeN Kernel Website](https://ryzen-kernel.vercel.app) |
+| 📥 **Download** | [Get RyZeN Kernel](https://ryzen-kernel.vercel.app/download.html) |
+| 💬 **Support** | [Get Help](https://ryzen-kernel.vercel.app/support.html) |
+| 📚 **Documentation** | [User Guide](https://ryzen-kernel.vercel.app/index.html#features) |
 
 ## ⚖️ **Disclaimer**
 
@@ -149,7 +149,7 @@ This project is licensed under the GPL v2 License - see the kernel source for de
 
 <p align="center">
   <a href="https://karthiklal.in">🌐 Visit Website</a> • 
-  <a href="https://karthiklal.in/download.html">📥 Download</a> • 
-  <a href="https://karthiklal.in/support.html">💬 Support</a>
+  <a href="https://ryzen-kernel.vercel.app/download.html">📥 Download</a> • 
+  <a href="https://ryzen-kernel.vercel.app/support.html">💬 Support</a>
 </p>
 
